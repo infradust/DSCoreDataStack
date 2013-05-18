@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4D2E5AE1747E75100740741 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D2E5AD1747E75100740741 /* Foundation.framework */; };
+		C4D2E5B31747E75100740741 /* DSCoreDataStack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4D2E5B21747E75100740741 /* DSCoreDataStack.h */; };
+		C4D2E5B51747E75100740741 /* DSCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D2E5B41747E75100740741 /* DSCoreDataStack.m */; };
+		C4D2E5BD1747E75100740741 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D2E5BC1747E75100740741 /* SenTestingKit.framework */; };
+		C4D2E5BF1747E75100740741 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D2E5BE1747E75100740741 /* UIKit.framework */; };
+		C4D2E5C01747E75100740741 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D2E5AD1747E75100740741 /* Foundation.framework */; };
+		C4D2E5C31747E75100740741 /* libDSCoreDataStack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D2E5AA1747E75100740741 /* libDSCoreDataStack.a */; };
+		C4D2E5C91747E75100740741 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4D2E5C71747E75100740741 /* InfoPlist.strings */; };
+		C4D2E5CC1747E75100740741 /* DSCoreDataStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D2E5CB1747E75100740741 /* DSCoreDataStackTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4D2E5C11747E75100740741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4D2E5A21747E75100740741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4D2E5A91747E75100740741;
+			remoteInfo = DSCoreDataStack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C4D2E5A81747E75100740741 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				C4D2E5B31747E75100740741 /* DSCoreDataStack.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C4D2E5AA1747E75100740741 /* libDSCoreDataStack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDSCoreDataStack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D2E5AD1747E75100740741 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4D2E5B11747E75100740741 /* DSCoreDataStack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DSCoreDataStack-Prefix.pch"; sourceTree = "<group>"; };
+		C4D2E5B21747E75100740741 /* DSCoreDataStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSCoreDataStack.h; sourceTree = "<group>"; };
+		C4D2E5B41747E75100740741 /* DSCoreDataStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSCoreDataStack.m; sourceTree = "<group>"; };
+		C4D2E5BB1747E75100740741 /* DSCoreDataStackTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSCoreDataStackTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D2E5BC1747E75100740741 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C4D2E5BE1747E75100740741 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C4D2E5C61747E75100740741 /* DSCoreDataStackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DSCoreDataStackTests-Info.plist"; sourceTree = "<group>"; };
+		C4D2E5C81747E75100740741 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4D2E5CA1747E75100740741 /* DSCoreDataStackTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSCoreDataStackTests.h; sourceTree = "<group>"; };
+		C4D2E5CB1747E75100740741 /* DSCoreDataStackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSCoreDataStackTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4D2E5A71747E75100740741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D2E5AE1747E75100740741 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D2E5B71747E75100740741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D2E5BD1747E75100740741 /* SenTestingKit.framework in Frameworks */,
+				C4D2E5BF1747E75100740741 /* UIKit.framework in Frameworks */,
+				C4D2E5C01747E75100740741 /* Foundation.framework in Frameworks */,
+				C4D2E5C31747E75100740741 /* libDSCoreDataStack.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4D2E5A11747E75100740741 = {
+			isa = PBXGroup;
+			children = (
+				C4D2E5AF1747E75100740741 /* DSCoreDataStack */,
+				C4D2E5C41747E75100740741 /* DSCoreDataStackTests */,
+				C4D2E5AC1747E75100740741 /* Frameworks */,
+				C4D2E5AB1747E75100740741 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4D2E5AB1747E75100740741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4D2E5AA1747E75100740741 /* libDSCoreDataStack.a */,
+				C4D2E5BB1747E75100740741 /* DSCoreDataStackTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4D2E5AC1747E75100740741 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4D2E5AD1747E75100740741 /* Foundation.framework */,
+				C4D2E5BC1747E75100740741 /* SenTestingKit.framework */,
+				C4D2E5BE1747E75100740741 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4D2E5AF1747E75100740741 /* DSCoreDataStack */ = {
+			isa = PBXGroup;
+			children = (
+				C4D2E5B21747E75100740741 /* DSCoreDataStack.h */,
+				C4D2E5B41747E75100740741 /* DSCoreDataStack.m */,
+				C4D2E5B01747E75100740741 /* Supporting Files */,
+			);
+			path = DSCoreDataStack;
+			sourceTree = "<group>";
+		};
+		C4D2E5B01747E75100740741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4D2E5B11747E75100740741 /* DSCoreDataStack-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4D2E5C41747E75100740741 /* DSCoreDataStackTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4D2E5CA1747E75100740741 /* DSCoreDataStackTests.h */,
+				C4D2E5CB1747E75100740741 /* DSCoreDataStackTests.m */,
+				C4D2E5C51747E75100740741 /* Supporting Files */,
+			);
+			path = DSCoreDataStackTests;
+			sourceTree = "<group>";
+		};
+		C4D2E5C51747E75100740741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4D2E5C61747E75100740741 /* DSCoreDataStackTests-Info.plist */,
+				C4D2E5C71747E75100740741 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4D2E5A91747E75100740741 /* DSCoreDataStack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D2E5CF1747E75100740741 /* Build configuration list for PBXNativeTarget "DSCoreDataStack" */;
+			buildPhases = (
+				C4D2E5A61747E75100740741 /* Sources */,
+				C4D2E5A71747E75100740741 /* Frameworks */,
+				C4D2E5A81747E75100740741 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSCoreDataStack;
+			productName = DSCoreDataStack;
+			productReference = C4D2E5AA1747E75100740741 /* libDSCoreDataStack.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C4D2E5BA1747E75100740741 /* DSCoreDataStackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D2E5D21747E75100740741 /* Build configuration list for PBXNativeTarget "DSCoreDataStackTests" */;
+			buildPhases = (
+				C4D2E5B61747E75100740741 /* Sources */,
+				C4D2E5B71747E75100740741 /* Frameworks */,
+				C4D2E5B81747E75100740741 /* Resources */,
+				C4D2E5B91747E75100740741 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4D2E5C21747E75100740741 /* PBXTargetDependency */,
+			);
+			name = DSCoreDataStackTests;
+			productName = DSCoreDataStackTests;
+			productReference = C4D2E5BB1747E75100740741 /* DSCoreDataStackTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4D2E5A21747E75100740741 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dan Shelly";
+			};
+			buildConfigurationList = C4D2E5A51747E75100740741 /* Build configuration list for PBXProject "DSCoreDataStack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4D2E5A11747E75100740741;
+			productRefGroup = C4D2E5AB1747E75100740741 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4D2E5A91747E75100740741 /* DSCoreDataStack */,
+				C4D2E5BA1747E75100740741 /* DSCoreDataStackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4D2E5B81747E75100740741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D2E5C91747E75100740741 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4D2E5B91747E75100740741 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4D2E5A61747E75100740741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D2E5B51747E75100740741 /* DSCoreDataStack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D2E5B61747E75100740741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D2E5CC1747E75100740741 /* DSCoreDataStackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4D2E5C21747E75100740741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4D2E5A91747E75100740741 /* DSCoreDataStack */;
+			targetProxy = C4D2E5C11747E75100740741 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4D2E5C71747E75100740741 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4D2E5C81747E75100740741 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4D2E5CD1747E75100740741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4D2E5CE1747E75100740741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4D2E5D01747E75100740741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DSCoreDataStack.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSCoreDataStack/DSCoreDataStack-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C4D2E5D11747E75100740741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DSCoreDataStack.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSCoreDataStack/DSCoreDataStack-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C4D2E5D31747E75100740741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSCoreDataStack/DSCoreDataStack-Prefix.pch";
+				INFOPLIST_FILE = "DSCoreDataStackTests/DSCoreDataStackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C4D2E5D41747E75100740741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSCoreDataStack/DSCoreDataStack-Prefix.pch";
+				INFOPLIST_FILE = "DSCoreDataStackTests/DSCoreDataStackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4D2E5A51747E75100740741 /* Build configuration list for PBXProject "DSCoreDataStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D2E5CD1747E75100740741 /* Debug */,
+				C4D2E5CE1747E75100740741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D2E5CF1747E75100740741 /* Build configuration list for PBXNativeTarget "DSCoreDataStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D2E5D01747E75100740741 /* Debug */,
+				C4D2E5D11747E75100740741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4D2E5D21747E75100740741 /* Build configuration list for PBXNativeTarget "DSCoreDataStackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D2E5D31747E75100740741 /* Debug */,
+				C4D2E5D41747E75100740741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4D2E5A21747E75100740741 /* Project object */;
+}
